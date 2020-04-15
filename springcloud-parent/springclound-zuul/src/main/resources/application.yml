@@ -1,0 +1,18 @@
+server:
+  port: 8003 #fileService项目的端口号
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ #指定服务注册中心的地址，即Eureka项目的地址
+spring:
+  application:
+    name: zuul-service #自定义当前项目注册到服务中心的名称
+zuul: 
+  ignored-services: '*'
+  routes:
+    api-a:
+      path: /gallery/**
+      serviceId: gallery-service
+    api-b:
+      path: /file/**
+      serviceId: file-service

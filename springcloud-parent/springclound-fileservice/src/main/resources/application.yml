@@ -1,0 +1,10 @@
+server:
+  port: 8001 #fileService项目的端口号
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ #指定服务注册中心的地址，即Eureka项目的地址
+spring:
+  application:
+    name: file-service #自定义当前项目注册到服务中心的名称
+ 

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-server #给Eureka取一个名字
+server:
+  port: 8761 #项目端口
+eureka:
+  client:
+    register-with-eureka: false #Eureka默认会注册它自己成为一个客户端，我们不需要，所以设置false即可 
+    fetch-registry: false

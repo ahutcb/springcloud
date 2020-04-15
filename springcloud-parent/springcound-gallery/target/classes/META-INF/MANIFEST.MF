@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springcound-gallery
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: kaifa004
+Implementation-Vendor-Id: springcound.dev
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springcloud-parent/springcound-gallery
+Created-By: Maven Integration for Eclipse
+
